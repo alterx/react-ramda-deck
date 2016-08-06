@@ -1,0 +1,2 @@
+const greet = (name) => "Hi, " + name ;
+greet("Carlos") // "Hi, Carlos"

@@ -1,0 +1,5 @@
+const sum = (a, b) => a + b;
+const curriedSum = (a) => (b) => a + b;
+curriedSum(40)(2) // 42.
+const add2 = curriedSum(2); // (b) => 2 + b
+add2(10) // 12

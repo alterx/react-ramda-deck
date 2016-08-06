@@ -1,6 +1,6 @@
 {
   "name": "react-ramda-deck",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Composing elegant web apps with React and Ramda",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "normalize.css": "3.0.3",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "spectacle": "^1.0.0"
+    "spectacle": "^1.0.0",
+    "spectacle-code-slide": "^0.1.10"
   },
   "devDependencies": {
     "autoprefixer-core": "^6.0.1",
