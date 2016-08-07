@@ -85,7 +85,7 @@ export default class Presentation extends React.Component {
               <Cite>{ messages.slides[0].author }</Cite>
             </BlockQuote>
           </Slide>
-          <Slide>
+          <Slide transition={["slide"]}>
             <Heading size={1} fill caps lineHeight={1} textColor="black" textSize="2.5em">
               ¿Qué es la programación funcional?
             </Heading>
@@ -120,6 +120,9 @@ export default class Presentation extends React.Component {
                 { loc: [0, 6], title: "Declarativa" }
             ]}
           />
+          <Slide transition={["slide"]} bgColor="black">
+            <Image fill src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" />
+          </Slide>
           <Slide transition={["slide"]} bgColor="white">
             <Heading size={1} caps lineHeight={1} textColor="primary" textSize="2.5em">
               Conceptos básicos
