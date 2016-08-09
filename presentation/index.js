@@ -325,37 +325,39 @@ export default class Presentation extends React.Component {
             ]}
           />
           <Slide transition={["slide"]} bgColor="white">
+            <Heading size={1} caps lineHeight={1} textColor="primary" textSize="2.5em">
+              Ver aplicación de ejemplo <Link target="_blank" href="https://github.com/alterx/functional-react">
+                en Github
+            </Link>
+            </Heading>
+          </Slide>
+          <Slide transition={["slide"]} bgColor="white">
             <Heading size={1} caps lineHeight={1} textColor="primary" textSize="2em">
               ¿A dónde ir después?
             </Heading>
             <List>
               <ListItem>
-                <Link href="https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details">
+                <Link target="_blank" href="https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details">
                     Mostly adequate guide to functional programming
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="https://github.com/hemanth/functional-programming-jargon">
+                <Link target="_blank" href="https://github.com/hemanth/functional-programming-jargon">
                     Functional Programming Jargon
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="http://ramdajs.com/0.21.0/index.html">
+                <Link target="_blank" href="http://ramdajs.com/0.21.0/index.html">
                     Ramda
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="https://facebook.github.io/react/">
+                <Link target="_blank" href="https://facebook.github.io/react/">
                     React
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="https://github.com/alterx/functional-react">
-                    Functional react - Aplicación de ejemplo
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href="http://elm-lang.org/">
+                <Link target="_blank" href="http://elm-lang.org/">
                     Elm
                 </Link>
               </ListItem>
@@ -367,19 +369,19 @@ export default class Presentation extends React.Component {
             </Heading>
             <List>
               <ListItem>
-                <Link href={messages.github}>Github</Link>
+                <Link target="_blank" href={messages.github}>Github: alterx</Link>
               </ListItem>
               <ListItem>
                 <Link href={messages.email}>Email</Link>
               </ListItem>
               <ListItem>
-                <Link href={messages.web}>carlosve.ga</Link>
+                <Link target="_blank" href={messages.web}>carlosve.ga</Link>
               </ListItem>
               <ListItem>
-                <Link href={messages.blog}>Blog: Unhandled Exception</Link>
+                <Link target="_blank" href={messages.blog}>Medium blog: Unhandled Exception</Link>
               </ListItem>
               <ListItem>
-                <Link href={messages.twitter}>Twitter</Link>
+                <Link target="_blank" href={messages.twitter}>@__el_Negro</Link>
               </ListItem>
             </List>
           </Slide>
